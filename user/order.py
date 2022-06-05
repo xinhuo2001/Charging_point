@@ -18,4 +18,25 @@ class Order:
         self.is_finish = is_finish #是否已经完成
     
     def showData(self):
-        pass
+        print(f'订单号:{self.ord_id}')        
+        print(f'用户id:{self.usr_id}')
+        print(f'详单生成时间:{self.ord_gene_time}')
+        print(f'充电桩编号:{self.ch_id}')
+        print(f'充电模式:{self.ch_mode}')
+        print(f'充电电量:{self.ch_time}')
+        print(f'充电时长:{self.ch_capacity}')
+        print(f'启动时间:{self.start_time}')
+        print(f'停止时间:{self.stop_time}')
+        print(f'充电费用:{self.ch_pay}')
+        print(f'服务费用:{self.serve_pay}')
+        print(f'总费用:{self.sum_pay}')
+        print(f'是否已经完成:{self.is_finish}')
+
+
+
+
+
+
+
+
+        

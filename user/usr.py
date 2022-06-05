@@ -1,5 +1,4 @@
 import json
-import order
 from user.order import Order
 
 class User:
@@ -29,13 +28,6 @@ class User:
     def writeInfoToFile(self):
         pass
 
-    def submitRequest(self):
-        #输入
-        #服务器
-        l = Order(1,1,2,1)
-        #添加
-        self.append(l)
-        #重写文件
 
     
     
