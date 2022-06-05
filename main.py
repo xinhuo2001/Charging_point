@@ -90,6 +90,39 @@ def rechargeBalance(count):
 def deductionBalance(count):
     pass
 
+# 提交充电请求
+def submit_request(ch_mode, ch_capacity, ):
+    """
+    ch_mode:
+    ch_capacity:
+    """
+    if ch_mode == 'F':
+        print('快充')
+    else:
+        print('慢充')
+
+
+# 修改充电请求
+def modify_request(new_ch_mode, new_ch_capacity, end_flag):
+    ch_mode = new_ch_mode
+    ch_capacity = new_ch_capacity
+    if end_flag is True:
+        print("结束充电")
+
+
+def check_queue_number(queue_number):
+    print(queue_number)
+
+
+def check_wait_number(wait_number):
+    print(wait_number)
+
+
+# 正常充电结束
+def end_charge(is_finish):
+    if is_finish is True:
+        print("正常充电结束")
+
 #测试模块
 def test():
     user_list = readUserData()
