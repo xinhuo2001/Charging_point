@@ -77,7 +77,6 @@ def userRegister(name, passwd, user_list):
     print(f"{name} 注册成功")
     return initUserDict(id, name, passwd)
 
-
 #修改密码
 def userModifyPasswd(oldPasswd, newPasswd):
     pass
@@ -109,11 +108,11 @@ def modify_request(new_ch_mode, new_ch_capacity, end_flag):
     if end_flag is True:
         print("结束充电")
 
-
+# 查看车辆排队号码
 def check_queue_number(queue_number):
     print(queue_number)
 
-
+# 查看等待队列
 def check_wait_number(wait_number):
     print(wait_number)
 
